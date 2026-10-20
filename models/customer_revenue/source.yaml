@@ -3,7 +3,7 @@ sources:
     database: SLEEKMART_OMS
     schema: L1_LANDING
 
-    tables: 
+    tables:
       - name: customers
         identifier: customers
 
@@ -11,7 +11,10 @@ sources:
         identifier: orders
 
       - name: orderitems
-        ideitifier: orderitems
-
+        config:
+          meta:
+            ideitifier: orderitems
       - name: employees
-        idetifier: employees
+        config:
+          meta:
+            idetifier: employees
